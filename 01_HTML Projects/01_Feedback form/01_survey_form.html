@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form </title>
+</head>
+
+<body>
+    <h1>This is a feedback form</h1>
+    <form action="">
+        <fieldset>
+            <h2>Student Info</h2>
+            <label for="name">Name </label> <br>
+            <input type="text" placeholder="First name" required> <br>
+            <input type="text" placeholder="Last name"> <br> <br>
+
+            <label for="email">Email</label> <br>
+            <input type="email" value="@gmail.com"> <br> <br>
+
+            <label for="mobno">Mobile number</label> <br>
+            <input type="text" value="+91" min="10" max="13">
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <h2>College Info</h2>
+            <label for="course">Course:</label>
+            <select name="" id="course" required>
+                <option value="bca">Bca</option>
+                <option value="bba">Bba</option>
+                <option value="bcom">Bcom</option>
+            </select> <br> <br>
+
+            <label for="branch">Branch:</label>
+            <select name="" id="branch">
+                <option value="hennur">Hennur Branch</option>
+                <option value="city">City Branch</option>
+                <option value="ombr">OMBR Branch</option>
+            </select>
+        </fieldset> <br> <br>
+
+        <fieldset>
+            <h2>Feedback</h2>
+            <p>Please note that feedback is only for 5th sem students </p>
+            Are you a 5th Sem Student? <input type="checkbox" required><br> <br>
+
+            <label for="q1">
+                Do you think that the school provides you with adequate sports facilities?
+            </label> <br>
+            <input type="radio" name="q1"> Yes
+            <input type="radio" name="q1"> No
+            <br> <br>
+
+            <label for="q1">
+                Are the teachers supportive?
+            </label> <br>
+            <input type="radio" name="q2"> Yes
+            <input type="radio" name="q2"> No <br> <br>
+
+            <textarea name="concerns" id="" cols="30" rows="10"
+                placeholder="you can write your feedback in this box "></textarea> <br> <br>
+
+            <a href="mailto:lakhan0105@gmail.com">Email us</a> <br> <br>
+
+            <button>Submit</button>
+        </fieldset>
+        <br>
+        <br>
+
+
+
+
+    </form>
+</body>
+
+</html>
